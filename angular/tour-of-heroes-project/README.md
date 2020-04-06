@@ -1,9 +1,14 @@
-#### Alternative way to run
-* `ng build`
-* `cd angular/tour-of-heroes-project/dist/frontend`
-* Install and run any [http server](https://www.npmjs.com/package/http-server)
-#### Useful tools:
-* `Augury` chrome extension
+# Tour of heroes https://angular.io/tutorial
+* Project was generated with `ng new` command
+    #### Install and run
+    * `npm install`
+    * `ng serve`
+    #### Alternative way to run
+    * `ng build`
+    * `cd angular/tour-of-heroes-project/dist/frontend`
+    * Install and run any [http server](https://www.npmjs.com/package/http-server)
+    #### Useful tools:
+    * `Augury` chrome extension
 
 # Frontend (auto generated readme)
 
