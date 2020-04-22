@@ -25,9 +25,30 @@
       callback(userInfo);
     }
     ```
-* xx
-    * zz
-* xx
-    * zz
-* xx
-    * zz
+* Promise
+    ```
+      function sum (a, b) {
+         return new Promise(function (resolve, reject) {
+           setTimeout(function () {
+             if (typeof a !== "number" || typeof b !== "number") {
+               reject(new TypeError("Provide numbers please"));
+             }
+             resolve(a + b);
+           }, 1000);
+         });
+      }
+      
+      var promisedSum = sum(40, 2);
+      promisedSum.then(function (result) {
+        console.log("Resolved - ", result);
+      }).catch(function (err) {
+        console.error("Catched - ", err);
+      });
+    ```
+* Async / Await
+    ```
+        async function getNumber() {
+          return 13; // async always returns promise
+        }
+        let result = await getNumber(); // waits for promise to resolve
+    ```
