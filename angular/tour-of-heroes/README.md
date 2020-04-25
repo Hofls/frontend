@@ -5,7 +5,7 @@
     * `ng serve`
     #### Alternative way to run
     * `ng build`
-    * `cd angular/tour-of-heroes-project/dist/frontend`
+    * `cd angular/tour-of-heroes/dist/frontend`
     * Install and run any [http server](https://www.npmjs.com/package/http-server)
     #### Useful tools:
     * `Augury` chrome extension
