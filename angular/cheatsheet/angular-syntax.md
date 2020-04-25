@@ -15,7 +15,7 @@ https://angular.io/guide/cheatsheet
     * `<input [(ngModel)]="hero.name"/>`
 * Repeater (repeat `<li>` for each `hero`)
     * `<li *ngFor="let hero of heroes">`
-* Event binding (call `onSave` method on click)
+* Event binding (call `onSave` function on click)
     * `<button (click)="onSave($event)">Save</button>`
 * Display `<div>` only if `selectedHero` is truthy
     * `<div *ngIf="selectedHero">`
@@ -33,14 +33,20 @@ https://angular.io/guide/cheatsheet
     * `xx`
 
 #### Angular code (.ts)
-* Input property (data binding from html page to angular code)
+* Input property (one way data binding)
     * `@Input() myProperty;`
-* zz
-    * `xx`
-* zz
-    * `xx`
-* zz
-    * `xx`
+* Declare a class that can be injected by other classes
+    ```
+      @Injectable
+      export class MessageService {}
+    ```
+    ```
+      constructor(public messageService: MessageService) {}
+    ```
+* Observable (`of(HEROES)` returns an `Observable<Hero[]>`)
+    ```
+      of(HEROES).subscribe(heroes => this.superheroes = heroes);
+    ```
 * zz
     * `xx`
 * zz
