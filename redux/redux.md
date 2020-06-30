@@ -15,6 +15,6 @@
         * A selector is a function that accepts Redux state as an argument and returns data that is derived from that state
     * `Component`
         * Components are the most basic UI building block of an app. A component controls a patch of screen called a view
-        
+* Useful Google Chrome extensions - `Redux DevTools`
 ### Diagram
 ![](redux-diagram.png)
