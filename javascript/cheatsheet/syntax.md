@@ -2,7 +2,7 @@
     * `let x = 23`
 * For cycle
     ```
-    for (element of elements) {
+    for (let element of elements) {
         console.log(element);
     }
     ```
