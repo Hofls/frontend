@@ -8,6 +8,12 @@
     ```
 * Regex
     * `let regex = /ab+c/;`
+* Collection
+    ```
+    let periods = [];
+    periods.push({periodName: "SPX_3", isOver: false});
+    periods.push({periodName: "PD_2", isOver: true});
+    ```
 * Spread operator
     ```
     const obj = { foo: 'bar', x: 42 };
