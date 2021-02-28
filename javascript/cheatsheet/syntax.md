@@ -8,6 +8,7 @@
     ```
 * Regex
     * `let regex = /ab+c/;`
+    * `let regex = new RegExp('ab+c');`
 * Collection
     ```
     let periods = [];
@@ -27,7 +28,7 @@
 * Callback
     ```
     function findUserInfo(callback) {
-      // imagine that here is request to external server, that returns userInfo
+      // imagine request to external server, that returns userInfo
       callback(userInfo);
     }
     ```
