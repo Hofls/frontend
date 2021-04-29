@@ -9,3 +9,4 @@ https://docs.npmjs.com/cli-documentation/cli
     * `npx http-server`
 * Run script named `prettify` in package.json
     * `npm run prettify`
+* Update dependencies to the latest versions: `npm update`
