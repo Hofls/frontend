@@ -28,6 +28,7 @@
     * `yes | sdkmanager --licenses` 
 * Optional
     * Build .apk file
+        * `./gradlew app:clean`
         * `./gradlew app:assembleRelease`
     * Install tools
         * `sdkmanager --install "platform-tools platforms;android-29 build-tools;29.0.2 emulator"`
