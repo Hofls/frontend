@@ -28,6 +28,7 @@
     * Normal Flow - default
     * `display: flex` - one-dimensional layout
     * `display: grid` - two-dimensional layout (rows and columns)
+    * `display: table` - table
 * Box parts - `content, padding, border, margin`
 
 ##### Positioning
@@ -70,8 +71,12 @@
 * Useful properties:
     * `content` - replaces content of an element
     * `border, background, overflow, transform, min-height, max-width, border-radius, float`
+* Shorthand properties
+    * `background: url(images/bg.gif) no-repeat left top;`
+* Move element below preceding siblings - `clear: both;`
 * Weird stuff (don't use it):
     * `!important`
+
 
 ##### Best practices
 * Mobile first. Build mobile version first, then expand it for desktop.
