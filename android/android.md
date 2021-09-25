@@ -7,6 +7,11 @@
     * Right click on windows -> Apps and features -> Programs and features -> Turn Windows features on or off
     * Disable Windows Hypervisor Platform
     * Disable Hyper-v
+* To slow down internet (for testing)
+    * Launch emulator -> Click on `...` -> Cellular
+        * Network type - GSM
+        * Signal strength - Poor
+    * Relaunch emulator
 
 ## Build .apk on server
 * Install Java
