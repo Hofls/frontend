@@ -13,6 +13,13 @@
         * Signal strength - Poor
     * Relaunch emulator
 
+### Catch Android emulator traffic (Android Studio)
+* To look at http requests/responses:
+    * Run emulator
+    * `View` -> `Tool Windows` -> `Profiler`
+    * `Start new session` -> Pick emulator -> Click on `NETWORK` timeline
+* For more info go to `computer-security` repo
+
 ## Build .apk on server
 * Install Java
     * `apt update`
