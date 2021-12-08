@@ -96,6 +96,20 @@ console.log(status.message)
 let toUppercase = (text) => text.toUpperCase();
 console.log(toUppercase("hey"))
 
+// HTTP request/response
+let response = await fetch('http://httpbin.org/get')
+let json = await response.json()
+console.log(json.origin)
+
+// Run code in parallel
+// Waits for 0.5 seconds, writes "Hello world!"
+async function write(text, delay) {
+    await sleep(delay)
+    console.log(text)
+}
+write("World!", 500)
+write("Hello", 400)
+
 // Naming conventions
 // Folder - advanced-query
 // File - user-repository.js
