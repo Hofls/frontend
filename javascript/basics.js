@@ -95,6 +95,10 @@ console.log(status.message)
 let toUppercase = (text) => text.toUpperCase();
 console.log(toUppercase("hey"))
 
+// Naming conventions
+// Folder - advanced-query
+// File - user-repository.js
+
 // ---------------------------------------
 // JS specific:
 
