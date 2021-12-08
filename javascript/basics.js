@@ -37,6 +37,7 @@ function multiply(number) {
 multiply(2)
 
 // Conditions
+// (&&, ||, !); (===, !=); (true, false)
 if (true) {
     console.log("A")
 } else {
