@@ -110,7 +110,9 @@ async function write(text, delay) {
 write("World!", 500)
 write("Hello", 400)
 
-// Package manager - npm, yarn; File - package.json
+// Package manager
+// npm; Files - package.json, package-lock.json
+// yarn; Files - package.json, package-lock.json
 
 // Naming conventions
 // Folder - advanced-query
