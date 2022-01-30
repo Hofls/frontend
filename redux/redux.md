@@ -1,3 +1,4 @@
+#### Overview
 `Redux` - JS library for managing application state
 * Consists of:
     * `Effect`
@@ -16,5 +17,11 @@
     * `Component`
         * Components are the most basic UI building block of an app. A component controls a patch of screen called a view
 * Useful Google Chrome extensions - `Redux DevTools`
-### Diagram
+
+#### CLI
+* Generate basic app
+    * `npx create-react-app my-app --template redux`
+
+#### Diagram
 ![](redux-diagram.png)
+* Starts with "Component initiates action..."
