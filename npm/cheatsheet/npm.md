@@ -18,5 +18,5 @@
     * `npm ls`
 * Check for outdated packages
     * `npm outdated`
-* Check if everything is working (node, npm, repo)
+* Check environment (node, npm, repo)
     * `npm environment`
