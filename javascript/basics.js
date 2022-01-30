@@ -153,7 +153,7 @@ function sum (a, b) {
     });
 }
 
-var promisedSum = sum(40, 2);
+let promisedSum = sum(40, 2);
 promisedSum.then(function (result) {
     console.log("Resolved - ", result);
 }).catch(function (err) {

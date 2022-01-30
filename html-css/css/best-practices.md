@@ -1,3 +1,4 @@
+#### Actual
 * Avoid duplicates and hacks
 * Strive for simplicity and consistency
 * Write comments
@@ -10,8 +11,6 @@
     * Header in one area, navigation in another
 * Normalize/Reset CSS (to make layout consistent in all browsers)
 * Follow naming convention
-* Use methodology
-    * `BEM`, `SMACSS`
 * Use relative units
     * `em`/`rem` for font size
 * Avoid inline styles, avoid !Important
@@ -20,7 +19,12 @@
 * Simple CSS is better than simple JS
 * Use Multiple Classes
     * `class="box right danger"` 
-* Use a PreProcessor (code to css)
-    * `Sass`, `PostCSS`
 * Use a PostProcessor (css to css)
     * `PostCSS`
+
+#### Outdated
+* Outdated because of CSS-in-JS and modern frameworks (e.g. tailwind, bootstrap):
+    * Methodologies
+        * `BEM`, `SMACSS`
+    * PreProcessor (code to css)
+        * `Sass`, `PostCSS`
