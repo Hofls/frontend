@@ -20,3 +20,5 @@
     * `npm outdated`
 * Check environment (node, npm, repo)
     * `npm environment`
+* If npm public registry not always available, use company registry first:
+    * `npm config set registry https://nexus.someit.com/repository/npm-registry`
