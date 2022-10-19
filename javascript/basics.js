@@ -88,9 +88,13 @@ person1.greet();
 // Anonymous class / JSON object
 const status = {
     id: 23,
-    message: 'Wrong connection'
+    message: 'Wrong connection',
+    debugMessage: function() {
+        console.log("NUM - 81723");
+    }
 };
 console.log(status.message)
+status.debugMessage();
 
 // Lambda (Anonymous function)
 let toUppercase = (text) => text.toUpperCase();
